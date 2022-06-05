@@ -1,0 +1,14 @@
+{
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "dependencyDashboard": true,
+  "pip_requirements": {
+    "fileMatch": ["my/specifically-named.file", "\\.requirements$"]
+  },
+  "repositories": ["yashgupta18/ansible-runner"],
+  "packageRules": [
+    {
+      "matchUpdateTypes": ["minor", "patch", "pin", "digest"],
+      "automerge": true
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "name": "ansible-runner",
+  "version": "0.0.47",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yashgupta18/ansible-runner.git"
+  },
+  "homepage": "https://github.com/yashgupta18/ansible-runner#readme"
+}
